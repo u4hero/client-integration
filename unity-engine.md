@@ -5,14 +5,14 @@ Create a empty object in scene, and rename to "U4heroManager" <br>
 ![image](https://github.com/u4hero/client-integration/assets/26012325/383180dc-17a8-49ac-9567-b39a6e84086f)
 
 ## step 2
-Create a script named "U4heroManager.cs", and paste the code below:
+Create a script named "GameManager.cs", and paste the code below:
 
 ```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class U4heroManager : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -50,7 +50,7 @@ public class U4heroManager : MonoBehaviour
 }
 ```
 ## step 3
-Attach U4heroManager.cs in U4heroManager object in scene <br>
+Attach GameManager.cs in GameManager object in scene <br>
 ![image](https://github.com/u4hero/client-integration/assets/26012325/7587702f-e6ad-4937-b481-4c76dcdab2b9)
 
 ## step 4
