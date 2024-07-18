@@ -1,3 +1,4 @@
+```
 var _game_pause_callback = JavaScript.create_callback(self, "_game_pause")
 
 func event_listener():
@@ -12,3 +13,4 @@ func question_trigger():
 	var window = JavaScript.get_interface("window")
 	var event = JavaScript.create_object("CustomEvent", "TriggerQuestion")
 	window.dispatchEvent(event)
+```
