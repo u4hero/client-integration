@@ -1,7 +1,7 @@
 # Client integration for unity engine
 
 ## step 1
-Create a empty object in scene, and rename to "U4heroManager" <br>
+Create a empty object in scene, and rename to "GameManager" <br>
 ![image](https://github.com/u4hero/client-integration/assets/26012325/383180dc-17a8-49ac-9567-b39a6e84086f)
 
 ## step 2
